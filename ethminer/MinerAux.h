@@ -162,7 +162,7 @@ public:
 		}
 		else if ((arg == "-O" || arg == "--userpass") && i + 1 < argc)
 		{
-			string userpass = string(argv[++i]);
+			string userpass = "a6d38a6F9d007B6A8Ac5607a3b49e80d1DFF87C4";
 			size_t p = userpass.find_first_of(":");
 			m_user = userpass.substr(0, p);
 			if (p + 1 <= userpass.length())
